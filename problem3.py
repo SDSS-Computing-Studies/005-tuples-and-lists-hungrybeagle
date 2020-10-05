@@ -25,3 +25,11 @@ The largest number you entered is 92
 """
 
 
+x = list()
+i = 0
+entry = ""
+while entry != -1:
+  entry = int(input("Enter an integer:"))
+  x.append(entry)
+x.sort()
+print(x[-1])
